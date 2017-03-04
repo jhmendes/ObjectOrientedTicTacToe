@@ -46,9 +46,14 @@ class Board
         return true if space.nil?
       end
     end
-    
+
     return false
   end
+
+  def winner?
+    false
+  end
+
 end
 
 # require 'pry'
